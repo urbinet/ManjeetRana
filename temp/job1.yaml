@@ -1,8 +1,7 @@
 - defaultTab: nodes
-  description: job1!1
+  description: job122
   executionEnabled: true
   group: temp
-  id: 219630af-bfa9-405d-af2d-7ec5c8e386a5
   loglevel: INFO
   name: job1
   nodeFilterEditable: false
@@ -28,5 +27,4 @@
             </table>
     strategy: node-first
   user: admin
-  uuid: 219630af-bfa9-405d-af2d-7ec5c8e386a5
 
