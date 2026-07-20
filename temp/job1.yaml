@@ -1,36 +1,4 @@
 - defaultTab: nodes
-<<<<<<< HEAD
-  description: job1!
-  executionEnabled: true
-  group: temp
-  id: 219630af-bfa9-405d-af2d-7ec5c8e386a5
-  loglevel: INFO
-  name: job1
-  nodeFilterEditable: false
-  plugins:
-    ExecutionLifecycle: {}
-  scheduleEnabled: true
-  schedules: []
-  sequence:
-    commands:
-    - exec: hostname
-    keepgoing: false
-    pluginConfig:
-      WorkflowStrategy:
-        node-first:
-          info: |-
-            <table>
-                <tr><td>1.</td><td class="text-info">NodeA</td> <td>step 1</td></tr>
-                <tr><td>2.</td><td class="text-info">"</td> <td>step 2</td></tr>
-                <tr><td>3.</td><td class="text-info">"</td> <td>step 3</td></tr>
-                <tr><td>4.</td><td class="text-muted">NodeB</td> <td>step 1</td></tr>
-                <tr><td>5.</td><td class="text-muted">"</td> <td>step 2</td></tr>
-                <tr><td>6.</td><td class="text-muted">"</td> <td>step 3</td></tr>
-            </table>
-    strategy: node-first
-  user: admin
-  uuid: 219630af-bfa9-405d-af2d-7ec5c8e386a5
-=======
   description: job1
   executionEnabled: true
   group: temp
@@ -59,5 +27,4 @@
             </table>
     strategy: node-first
   user: admin
->>>>>>> branch 'dev' of https://urbinet@github.com/urbinet/ManjeetRana.git
 
